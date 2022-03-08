@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web-технологии</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normolize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" title=""><img src="img/header__logo.svg" alt="logo" class="header__logo"></a>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#intro" class="nav__link">Введение</a></li>
+          <li><a href="#front" class="nav__link">Интерфейсные технологии</a></li>
+          <li><a href="#back" class="nav__link">Серверные технологии</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+
+    <section class="about">
+      <div class="container">
+        <h1 class="about__title">Популярные</h1>
+        <h2 class="about__subtitle red">Web-технологии</h2>
+        <p class="about__text">Web-технологии&nbsp;&mdash; это технологии формирования и&nbsp;поддержки разных информационных ресурсов в&nbsp;сети интернет. <br>
+          На&nbsp;данной странице вы&nbsp;можете вкратце ознакомиться с&nbsp;некоторыми современными web-технологиями.</p>
+      </div>      
+    </section>
+
+<!-- ===== INTRO ===== -->
+
+    <section class="intro container">      
+      <h1>
+        <a class="intro__title" id="intro" href="https://spravochnick.ru/informacionnye_tehnologii/web-tehnologii" target="_blank" title="Взято из источника https://spravochnick.ru/">Введение</a> 
+      </h1>
+      <p class="intro__text">Современные веб-технологии предоставляют разработчикам неограниченные возможности для реализации своих идей. Для того, чтобы вы&nbsp;
+        могли использовать весь их&nbsp;потенциал, необходимо знать как правильно их&nbsp;использовать. На&nbsp;этой странице мы&nbsp;постарались собрать ссылки 
+        на&nbsp;документацию по&nbsp;различным технологиям, которые могут быть вам полезны.
+      </p>
+      <p class="intro__text">Когда появились Web-технологии, пользоваться компьютерной техникой начали абсолютно новые категории граждан. Список социальных категорий населения, 
+        подсоединяющихся к&nbsp;сети интернет с&nbsp;целью поиска информации во&nbsp;всемирной паутине, постоянно увеличивается за&nbsp;счёт людей, которые 
+        не&nbsp;считают себя специалистами в&nbsp;сфере информационных технологий. Web-технология в&nbsp;корне изменила понятия об&nbsp;информационной обработке, 
+        как и&nbsp;работе с&nbsp;компьютерной техникой тоже.
+      </p>
+      
+      <figure class="intro__img">
+        <img src="img/intro__cheme.jpg" alt="schema of technologes">
+        <figcaption class="intro__img__text"> Разделение web-технологий на категории</figcaption>
+      </figure>
+
+      <p class="intro__text">Web-технологиями является весь набор средств, позволяющих организовать WWW (World Wide Web), то&nbsp;есть всемирную паутину. 
+        Так как каждый сеанс является взаимодействием двух сторон, а&nbsp;именно, сервера и&nbsp;клиента, то&nbsp;и&nbsp;Web-технологии делятся на&nbsp;следующие группы:
+      </p>
+      <ol>
+        <li><a href="#front" class="intro__link" title="Перейти к клиентским технологиям">Технологии клиентской стороны (client-side)</a></li>
+        <li><a href="#back" class="intro__link" title="Перейти к серверным технологиям">Технологии серверной стороны (server-side).</a></li>
+      </ol>
+      <p class="intro__text">
+        Серверные программы обеспечивают предоставление тех или иных ресурсов клиентским программам. Клиенты, когда им&nbsp;требуется какой-либо файл или просто 
+        какая-то информация от&nbsp;сервера, вырабатывают специальный запрос клиента и&nbsp;отправляют его серверу. Серверная программа выполняет обработку запроса 
+        и&nbsp;отправляет ответ сервера, который содержит запрошенную информацию или&nbsp;же извещение об&nbsp;ошибке, в&nbsp;случае недоступности требуемых данных. 
+        Данная компьютерная организация, или по&nbsp;другому, принципы формирования вычислительных систем или сетей, именуется архитектурой &laquo;клиент-сервер&raquo; 
+        или двухзвенной организацией. Как раз на&nbsp;базе двухзвенной архитектуры работают практически все интернет&nbsp;&mdash; сервисы, включая и&nbsp;WWW.
+      </p>
+      <p class=" intro__text">
+        Для случая WWW в&nbsp;качестве клиентов используются программы веб-обозревателей, то&nbsp;есть веб-браузеры, являющиеся программами для просмотра веб-страниц. 
+        В&nbsp;качестве серверов выступают так называемые веб &mdash;серверы, которые обрабатывают запросы веб &mdash;обозревателей и&nbsp;отправляют им&nbsp;необходимые файлы.
+      </p>
+    </section>
+
+<!-- ===== FRONT ===== -->
+
+    <section class="front container">
+      <h1 class="front__title title" id="front">Технологии клиентской стороны</h1>
+      <div class="front__info">
+        <p class="front__text">Технологии клиентской стороны включают в&nbsp;свой состав весь набор технологий по&nbsp;созданию веб-страниц (HTML, JavaScript, DHTML и&nbsp;другие).<br>        
+          Кратко познакомимся с&nbsp;самыми популярними из&nbsp;них</p>
+          <ul class="front__technologe">
+            <li><a href="#html" class="front__technologe__list ">HTML</a></li>
+            <li><a href="#css" class="front__technologe__list ">CSS</a></li>
+            <li><a href="#js" class="front__technologe__list ">JavaScript</a></li>
+          </ul>
+      </div> 
+<!-- html -->
+      <div class="html">
+        <h2>
+          <a href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/HTML_basics" class="html__title" id="html" target="_blank" title="Взято из источника https://developer.mozilla.org/ru/">HTML</a>
+        </h2>        
+        <img src="img/html_s.jpg" alt="html" class="html__logo" >        
+        <p class="html__text">HTML (Hypertext Markup Language)&nbsp;&mdash; это код, который используется для структурирования и&nbsp;отображения веб-страницы и&nbsp;
+          её&nbsp;контента. Например, контент может быть структурирован внутри множества параграфов, маркированных списков или с&nbsp;использованием изображений и&nbsp;таблиц 
+          данных. Как видно из&nbsp;названия, эта статья даст вам базовое понимание HTML и&nbsp;его функций.
+        </p>
+        <p class="html__text">HTML не является языком программирования; это язык разметки, и используется, чтобы сообщать вашему браузеру, как отображать веб-страницы, 
+          которые вы посещаете. Он может быть сложным или простым, в зависимости от того, как хочет веб-дизайнер. HTML состоит из ряда элементов, которые вы используете, 
+          чтобы вкладывать или оборачивать различные части контента, чтобы заставить контент отображаться или действовать определённым образом. Ограждающие 
+          теги могут сделать слово или изображение ссылкой на что-то ещё, могут сделать слова курсивом, сделать шрифт больше или меньше и так далее.
+        </p>
+        <p class="html__text">HTML использует разметку (&laquo;markup&raquo;) для отображения текста, изображений и&nbsp;другого контента 
+          в&nbsp;веб-браузере. HTML-разметка включает в&nbsp;себя специальные &laquo;элементы&raquo;, такие как 
+        
+        <code > 
+          &lt;head&gt;, &lt;title&gt;, &lt;body&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, &lt;section&gt;, &lt;p&gt;, &lt;div&gt;, 
+          &lt;span&gt;, &lt;img&gt;, &lt;aside&gt;, &lt;audio&gt;, &lt;canvas&gt;, &lt;datalist&gt;, &lt;details&gt;, &lt;embed&gt;, &lt;nav&gt;, &lt;output&gt;, &lt;progress&gt;, &lt;video&gt;
+        </code> и&nbsp;многие другие.</p>
+        <p class="html__text">Давайте рассмотрим элемент абзаца более подробно.</p>
+        <img src="img/html__img.png" alt="html__example" class="html__img">
+        <p class="html__text"> Главными частями нашего элемента являются:</p>
+        <ol>
+          <li>Открывающий тег (Opening tag): Состоит из&nbsp;имени элемента (в&nbsp;данном случае, &laquo;p&raquo;), заключённого в&nbsp;открывающие 
+            и&nbsp;закрывающие угловые скобки. Открывающий тег указывает, где элемент начинается или начинает действовать, в&nbsp;данном случае&nbsp;&mdash; 
+            где начинается абзац.</li>
+          <li>Закрывающий тег (Closing tag): Это то&nbsp;же самое, что и&nbsp;открывающий тег, за&nbsp;исключением того, что он&nbsp;включает в&nbsp;себя 
+            косую черту перед именем элемента. Закрывающий элемент указывает, где элемент
+            заканчивается, в&nbsp;данном случае&nbsp;&mdash; где заканчивается абзац. Отсутствие закрывающего тега является одной из&nbsp;наиболее 
+            распространённых ошибок начинающих и&nbsp;может приводить к&nbsp;странным результатам.</li>
+          <li>Контент (Content): Это контент элемента, который в&nbsp;данном случае является просто текстом.</li>
+          <li>Элемент(Element): Открывающий тег, закрывающий тег и&nbsp;контент вместе составляют элемент.</li>
+        </ol>
+      </div>  
+<!-- css -->
+      <div class="css">
+        <h2>
+          <a href="https://timeweb.com/ru/community/articles/chto-takoe-css" class="css__title" id="css" target="_blank" title="Взято из источника https://timeweb.com/ru/">CSS</a>
+        </h2>
+        <img src="img/css_s.jpg" alt="css" class="css__logo" >
+        <p class="css__text">Как и&nbsp;HTML, CSS на&nbsp;самом деле не&nbsp;является языком программирования. Это не&nbsp;язык разметки&nbsp;&mdash; это язык таблицы стилей. 
+          Объекты, расположенные на&nbsp;странице, размещаются с&nbsp;помощью HTML. А&nbsp;вот CSS отвечает за&nbsp;то, как эти объекты выглядят. Их&nbsp;размер, цвет, 
+          фоновое изображение, степень прозрачности, расположение относительно других элементов, поведение при наведении курсора, визуальное изменение кнопок при 
+          нажатии и&nbsp;т.п.          
+        </p>
+        <p class="css__text">Язык CSS быстро стал стандартом в&nbsp;веб-разработке, потому что он&nbsp;позволяет быстро изменить визуальное оформление сайта, не&nbsp;прибегая 
+          к&nbsp;использованию более сложных языков программирования. Достаточно ознакомиться с&nbsp;простейшими правилами CSS, и&nbsp;можно легко собрать вполне симпатичный 
+          сайт со&nbsp;всем необходимым контентом. &laquo;Простота&raquo; обеспечивается за&nbsp;счет понятного синтаксиса.
+        </p>
+        <p class="css__text">Синтаксис CSS в&nbsp;отдельном файле в&nbsp;соответствующем формате (.css) выглядит так:</p>
+        <img src="img/css__img.jpg" alt="css__example" class="css__img">
+        <ol>
+          <li>Селектор&nbsp;&mdash; это ссылка на&nbsp;элемент в&nbsp;HTML, над которым будет вестись работа (оформление).</li>
+          <li>Свойство&nbsp;&mdash; определенная характеристика элемента, которую нужно изменить. Например, размер или цвет. </li>
+          <li>Значение&nbsp;&mdash; цифровое или текстовое обозначение для выбранного свойства.</li>
+        </ol>
+        <p class="css__text">Глубокое изучение каскадных таблиц поможет сделать ваши сайты более стильными, при этом не&nbsp;перебарщивая с&nbsp;количеством JS-кода, 
+          что положительно скажется на&nbsp;производительности ресурса.
+        </p>
+      </div>    
+<!-- js -->
+      <div class="js">
+        <h2>
+          <a href="https://itchief.ru/javascript/introduction" class="js__title" id="js" target="_blank" title="Взято из источника https://itchief.ru/">JavaScript</a>
+        </h2>
+        <img src="img/js.jpg" alt="js" class="js__logo" >
+        <p class="js__text">JavaScript язык программирования, который позволяет вам создать динамически обновляемый контент, управляет мультимедиа, анимирует изображения, 
+          впрочем, делает почти всё, что угодно. JavaScript используется для того, чтобы делать страницы интерактивными, то&nbsp;есть дать пользователю возможность 
+          взаимодействовать с&nbsp;элементами. Когда страницы могут реагировать на&nbsp;какие-то действия, это делает их&nbsp;интереснее.
+        </p>
+        <p class="js__text">Программы написанные на&nbsp;JavaScript для браузера называются сценариями или скриптами. Процесс их&nbsp;добавления на&nbsp;страницу 
+          осуществляется через тег <code>&lt;script&gt;</code> . При этом их&nbsp;можно как непосредственно разместить на&nbsp;странице, так и&nbsp;в&nbsp;отдельном 
+          файле. Выполняются они автоматически при загрузке страницы.
+        </p>
+        <p class="js__text">Начиная с&nbsp;версии ES6 язык значительно преобразился, в&nbsp;нём появился новый синтаксис для написания сложных приложений (классы, 
+          модули, итераторы, циклы, генераторы в&nbsp;стиле Python, стрелочные функции, ключевые слова let, const и&nbsp;многое другое).
+        </p>
+        <p class="js__text">В&nbsp;настоящее время язык JavaScript уже применяется не&nbsp;только для веба. С&nbsp;помощью него можно написать обычные приложения 
+          для десктопных и&nbsp;мобильных операционных систем, использовать его в&nbsp;роли серверного языка (node.js) и&nbsp;др.
+        </p>
+        <p class="js__text">Языка JavaScript, как и&nbsp;другие языки программирования, имеет некоторые особенности. Среди основных&nbsp;&mdash; это слабая 
+          типизация и&nbsp;динамическое приведение типов.
+        </p>
+        <p class="js__text">Когда браузер при чтении страницы встречает на&nbsp;ней элемент <code>&lt;script&gt;</code>, браузер останавливает дальнейшую 
+          загрузку страницы и&nbsp;выполняет, подключенный с&nbsp;помощью этого элемента JavaScript код. После его выполнения, он&nbsp;приступает к&nbsp;дальнейшей 
+          загрузке страницы.
+        </p>
+        <p class="js__text">JavaScript - это не Java, хоть он и унаследовал некоторые синтаксические конструкции этого языка. Такое название данный язык получил в 
+          силу некоторых исторических причин. 
+        </p>
+      </div>  
+    </section>
+
+<!-- ===== BACK ===== -->
+
+    <section class="back container">
+      <h1 class="back__title title" id="back">Технологии серверной стороны</h1>
+      <div class="back__info">
+        <p class="back__text">Технологии серверной стороны состоят из&nbsp;технологий доступа к&nbsp;информационным базам данных в&nbsp;сети интернет (CGI, PHP). <br>
+          Кратко познакомимся с&nbsp;самыми популярними из&nbsp;них</p>
+          <ul class="back__technologe">
+            <li><a href="#php" class="back__technologe__list">PHP</a></li>
+            <li><a href="#sql" class="back__technologe__list">MySQL</a></li>
+          </ul>          
+      </div>  
+<!-- php-->
+      <div class="php">
+        <h2>
+          <a href="https://blog.skillfactory.ru/glossary/php/" class="php__title" id="php" target="_blank" title="Взято из источника https://blog.skillfactory.ru">PHP</a>
+        </h2>
+        <img src="img/php.jpg" alt="php" class="php__logo" >
+        <p class="php__text">PHP (Hypertext PreProcessor, &laquo;препроцессор гипертекста&raquo;)&nbsp;&mdash; скриптовый язык программирования. Имеет открытый исходный код. 
+          Изначально создавался для разработки веб-приложений, но&nbsp;в&nbsp;процессе обновлений стал языком общего назначения. Основная область применения&nbsp;&mdash; 
+          разработка скриптов, которые работают на&nbsp;стороне сервера.
+        </p>
+        <p class="php__text">PHP&nbsp;&mdash; язык с&nbsp;динамической типизацией. Это означает, что переменная не&nbsp;определяется жестко и&nbsp;заранее (если число, 
+          то&nbsp;int, если строка&nbsp;&mdash; string). Динамическая типизация позволяет присваивать одной и&nbsp;той&nbsp;же переменной несколько значений: она может 
+          быть массивом, строкой, числом, объектом и&nbsp;т.&nbsp;д. Динамическая типизация удобная и&nbsp;гибкая, но&nbsp;приводит к&nbsp;потреблению большого количества 
+          оперативной памяти и&nbsp;уменьшает скорость работы.
+        </p>
+        <p class="php__text">Также PHP&nbsp;&mdash; интерпретируемый язык. Это означает, что код, который написан на&nbsp;PHP, не&nbsp;компилируется (преобразуется в&nbsp;машинный),
+          а&nbsp;выполняется строка за&nbsp;строкой с&nbsp;помощью программы-интерпретатора, которая читает каждую из&nbsp;них и&nbsp;выполняет&nbsp;то, что там указано.
+        </p>
+        <p class="php__text">PHP хранит состояние, созданное в&nbsp;текущий момент времени. В&nbsp;отличие от&nbsp;классических компилируемых языков программирования, которые работают 
+          все время от&nbsp;запуска до&nbsp;остановки программы, PHP-скрипт начинает выполняться с&nbsp;момента обращения веб-сервера и&nbsp;заканчивает (забывает все, что знал), когда 
+          возвращает сгенерированный пакет данных обратно веб-серверу.
+        </p>
+        <img src="img/php__img.jpg" alt="php__example" class="php__img">
+        <ol>
+          <li>Входящее соединение принимает и&nbsp;анализирует веб-сервер. Происходит интерпретация и&nbsp;формируется ответ.</li>
+          <li> Как правило, результат работы PHP-интерпретатора (программы, выполняющей PHP-код)&nbsp;&mdash; HTML-код. На&nbsp;этом этапе PHP-скрипт преобразуется в&nbsp;статический 
+            HTML-код, который может читать браузер. В&nbsp;процессе работы PHP может использовать MySQL&nbsp;&mdash; свободную систему управления базами данных (БД). Она выполняет 
+            обмен информацией с&nbsp;сервером базы данных на&nbsp;согласованном языке (SQL). Сервер базы данных и&nbsp;веб-сервер образуют тандем, читающий и&nbsp;записывающий 
+            информацию и&nbsp;данные, предоставляя их&nbsp;посетителям сайта.</li>
+          <li>БД&nbsp;отправляет данные PHP-скрипту, который расставляет их&nbsp;по&nbsp;нужным местам страницы или пакета данных и&nbsp;формирует окончательный ответ. 
+            Ответ отправляется обратно веб-серверу, который и&nbsp;возвращает клиенту страницу или пакет данных.</li>
+        </ol>
+        <p class="php__text">Возможность комбинировать PHP- и&nbsp;HTML-код позволяет создавать динамические страницы, которые показывают каждый раз разную информацию 
+          в&nbsp;зависимости от&nbsp;полученных от&nbsp;пользователя данных или настроек.
+        </p>
+      </div> 
+<!-- sql -->
+      <div class="sql">
+        <h2>
+          <a href="https://blog.skillfactory.ru/glossary/sql/" class="sql__title" id="sql" target="_blank" title="Взято из источника https://blog.skillfactory.ru">SQL</a>
+        </h2>
+        <img src="img/sql.jpg" alt="sql" class="sql__logo" >
+        <p class="sql__text">SQL&nbsp;&mdash; это язык запросов, созданный для того, чтобы получать из&nbsp;базы данных необходимую информацию. Если описать схему работы SQL простыми 
+          словами, то&nbsp;специалист формирует запрос и&nbsp;направляет его в&nbsp;базу. Та&nbsp;в&nbsp;свою очередь обрабатывает эту информацию, &laquo;понимает&raquo;, что именно 
+          нужно специалисту, и&nbsp;отправляет ответ.
+        </p>
+        <p class="sql__text">Данные хранятся в&nbsp;виде таблиц, они структурированы и&nbsp;разложены по&nbsp;строкам и&nbsp;столбцам, чтобы ими легче было оперировать. 
+          Такой способ хранения информации называют реляционными базами данных (от&nbsp;англ. relation&nbsp;&mdash; &laquo;отношения&raquo;). Название указывает на&nbsp;то, 
+          что объекты в&nbsp;такой базе связаны определенными отношениями.</p>
+        <p class="sql__text">СУБД могут быть коммерческими или иметь открытый код. Системы управления с&nbsp;открытым кодом можно бесплатно использовать в&nbsp;проектах, 
+          а&nbsp;также дополнять их&nbsp;документацию и&nbsp;совершенствовать процесс работы с&nbsp;системой. Коммерческие СУБД имеют платный доступ к&nbsp;полным 
+          версиям&nbsp;&mdash; как правило, такие используют крупные корпорации.
+        </p>
+        <img src="img/sql__img.jpg" alt="sql__example" class="sql__img">
+        <p class="sql__text">Основные команды SQL:</p>        
+        <ul>
+          <li>SELECT&nbsp;&mdash; выбери данные</li>
+          <li>FROM&nbsp;&mdash; вот отсюда</li>
+          <li>JOIN&nbsp;&mdash; добавь еще эти таблицы</li>
+          <li>WHERE&nbsp;&mdash; при таком условии</li>
+          <li>GROUP BY&nbsp;&mdash; сгруппируй данные по&nbsp;этому признаку</li>
+          <li>ORDER BY&nbsp;&mdash; отсортируй данные по&nbsp;этому признаку</li>
+          <li>LIMIT&nbsp;&mdash; нужно такое количество результатов</li>
+          <li>; &mdash;&nbsp;конец предложения</li>
+        </ul>
+        <p class="sql__text"></p>
+      </div>     
+    </section>
+
+<!-- ===== Resourse ===== -->
+    <section class="res container">
+      <h1 class="res__title title" id="resourse">Источники информации</h1>
+      <ol>
+        <li>
+          <a class="res__link" href="https://spravochnick.ru/informacionnye_tehnologii/web-tehnologii" title="Перейти на страницу" target="_blanc">Страница https://spravochnick.ru/informacionnye_tehnologii/web-tehnologii</a>
+        </li>
+        <li>
+          <a class="res__link" href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/HTML_basics" title="Перейти на страницу" target="_blanc">Страница https://developer.mozilla.org/ru/</a>
+        </li>
+        <li>
+          <a class="res__link" href="https://timeweb.com/ru/community/articles/chto-takoe-css" title="Перейти на страницу" target="_blanc">Страница https://timeweb.com/ru</a>
+        </li>
+        <li>
+          <a class="res__link" href="https://itchief.ru/javascript/introduction" title="Перейти на страницу" target="_blanc">Страница https://itchief.ru/</a>
+        </li>
+        <li>
+          <a class="res__link" href="https://blog.skillfactory.ru/glossary/php/" title="Перейти на страницу" target="_blanc">Страница https://blog.skillfactory.ru/glossary/php/</a>
+        </li>
+        <li>
+          <a class="res__link" href="https://blog.skillfactory.ru/glossary/sql/" title="Перейти на страницу" target="_blanc">Страница https://blog.skillfactory.ru/glossary/sql/</a>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+
+<!-- ===== FOOTER ===== -->
+
+  <footer class="footer">
+    <div class="container">
+      <a href="test_02.html" class="link text red test2" target="_blank" title="go">Перейти к тестовому заданию  &#8470;&nbsp;2</a>
+    </div>
+  </footer>
+
+  <!-- ===== Btn Return ===== -->
+  <a href="#" class="btn hidden">Наверх</a>
+
+  <script src="js/main.js"></script> 
+</body>
+</html>
